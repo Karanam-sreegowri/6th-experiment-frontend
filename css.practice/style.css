@@ -1,0 +1,50 @@
+h1 {
+    color: black;
+    background-color: rgba(0, 255, 255, 0.715);
+}
+h2{
+    color: black;
+    background-color: rgba(0, 255, 55, 0.715);
+}
+
+#para1 {
+    color: rgb(255, 115, 0);
+    background-color: rgba(255, 230, 0, 0.426);
+    font-size: 25px;
+}
+
+#para2 {
+    color: black;
+    background-color: rgba(255, 255, 0, 0.25);
+    font-size: 25px;
+}
+h3{
+    color:black;
+    background-color: rgba(154, 212, 18, 0.715);
+
+}
+#para3 {
+    color: black;
+    background-color: rgba(60, 163, 167, 0.966);
+    font-size: 25px;
+}
+#para4 {
+    color: black;
+    background-color: rgba(255, 255, 0, 0.472);
+    font-size: 25px;
+}
+#para5 {
+    color: black;
+    background-color: rgba(201, 149, 53, 0.699);
+    font-size: 25px;
+}
+#para6 {
+    color: black;
+    background-color: rgba(41, 59, 138, 0.883);
+    font-size: 25px;
+}
+#para7 {
+    color: black;
+    background-color: rgba(51, 184, 117, 0.883);
+    font-size: 25px;
+}

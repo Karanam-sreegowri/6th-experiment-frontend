@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: url(images/background.png);
+}
+.container {
+    width: 100%;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 10px 30px;
+    background-color: #0D47A1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 180px;
+    height: 60px;
+    object-fit: contain;
+}
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.search input[type="text"] {
+    width: 350px;
+    height: 38px;
+    padding: 8px;
+    border: none;
+}
+.search input[type="submit"] {
+    height: 38px;
+    padding: 0 15px;
+    border: none;
+    background-color: #FFB300;
+    cursor: pointer;
+}
+.account {
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+.categories {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    height: 50px;
+    background-color: #1976D2;
+    text-align: center;
+}
+.categories div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.categories div a {
+    color: white;
+    text-decoration: none;
+}
+.categories div:hover {
+    background-color: #0D47A1;
+}
+.banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    width: 600%;
+    height: 400px;
+    animation: slide 18s infinite;
+}
+.slider img {
+    width: 16.6667%;
+    height: 400px;
+    flex: 0 0 16.6667%;
+    object-fit: cover;
+    display: block;
+}
+@keyframes slide {
+    0%,
+    13% {
+        transform: translateX(0);
+    }
+    16%,
+    29% {
+        transform: translateX(-16.6667%);
+    }
+    32%,
+    45% {
+        transform: translateX(-33.3334%);
+    }
+    48%,
+    61% {
+        transform: translateX(-50%);
+    }
+    64%,
+    77% {
+        transform: translateX(-66.6667%);
+    }
+    80%,
+    93% {
+        transform: translateX(-83.3334%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.service {
+    height: 45px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.service h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+.services h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #222;
+}
+.service-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+.service p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#returns {
+    background-color: green;
+}
+#support {
+    background-color: blue;
+}
+#payment {
+    background-color: purple;
+}
+#delivery {
+    background-color: orange;
+}
+.product-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #1565C0;
+    color: white;
+    text-align: center;
+}
+.product-title h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background-color: white;
+}
+.product {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.product img {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+}
+.product h3 {
+    margin: 10px 0;
+}
+.product h2 {
+    margin: 10px 0;
+}
+.product input {
+    padding: 10px 20px;
+    background-color: #1976D2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.product input:hover {
+    background-color: #0D47A1;
+}
+.offers {
+    width: 100%;
+    background-color: #FFF176;
+    text-align: center;
+    padding: 25px;
+}
+.offers h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+.offers p {
+    margin: 10px;
+    font-size: 17px;
+}
+.footer {
+    width: 100%;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top:0;
+}
+.footer h2 {
+    margin-bottom: 15px;
+}
+.footer p {
+    margin: 10px 0;
+}
